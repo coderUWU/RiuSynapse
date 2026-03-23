@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RiuSynapse - Interface</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="monaco/monaco.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>RiuSynapse v2.8.5</h1>
+            <div class="status">
+                <span class="status-indicator online"></span>
+                <span>Status: Undetected</span>
+            </div>
+        </header>
+        
+        <div class="tabs">
+            <button class="tab active" data-tab="executor">Executor</button>
+            <button class="tab" data-tab="scripts">Script Hub</button>
+            <button class="tab" data-tab="settings">Settings</button>
+            <button class="tab" data-tab="console">Console</button>
+        </div>
+        
+        <div class="tab-content" id="executor">
+            <div class="editor-container">
+                <div id="monaco-editor"></div>
+            </div>
+            <div class="controls">
+                <button id="execute">Execute</button>
+                <button id="clear">Clear</button>
+                <button id="open">Open File</button>
+                <button id="save">Save File</button>
+                <button id="inject">Inject</button>
+            </div>
+        </div>
+        
+        <div class="tab-content" id="scripts" style="display:none;">
+            <div class="script-list">
+                <h3>Popular Scripts</h3>
+                <div class="script-item">Infinite Yield</div>
+                <div class="script-item">Owl Hub</div>
+                <div class="script-item">Dark Hub</div>
+                <div class="script-item">ESP Script</div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="monaco/monaco.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
