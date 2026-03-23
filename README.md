@@ -57,14 +57,6 @@
 3. Run `RiuSynapse.exe` as Administrator
 4. Enter your key
 
-## 🔑 Getting a Key
-
-1. Visit [https://synapsez.net/getkey](https://synapsez.net/getkey)
-2. Complete 2 linkvertise links
-3. Copy your key
-4. Paste in executor
-5. Key valid for 24 hours
-
 ## 📜 Popular Scripts
 
 ### Included Script Categories:
